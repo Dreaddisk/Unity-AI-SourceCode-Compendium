@@ -160,10 +160,12 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
 "Assets/Scripts/1. Moving/GoToGoal.cs"
 "Assets/Scripts/1. Moving/Move.cs"
 "Assets/Scripts/1. Moving/MovePosition.cs"
 "Assets/Scripts/1. Moving/Slerping.cs"
+Assets/Scripts/Cars/Waypoints.cs
 -r:"C:\Program Files\Unity\Hub\Editor\2017.4.32f1\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2017.4.32f1\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2017.4.32f1\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
