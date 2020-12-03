@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/1. Moving.unity
+- path: Assets/_Scenes/2. Cars.unity
   isLoaded: 1
   isActive: 1

@@ -18,11 +18,14 @@ public class WaypointFollow : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (circuit.Waypoints.Length == 0) return;
+        if (circuit.Waypoints.Length == 0) return;  // checkking the length of the circuit.
 
+
+        // Reading the x,y and z position of the waypoints that are in the field.
         Vector3 lookAtGoal = new Vector3(circuit.Waypoints[currentWP].position.x,
             this.transform.position.y,
             circuit.Waypoints[currentWP].position.z);
+
 
         Vector3 direction = lookAtGoal - this.transform.position;
 
